@@ -47,27 +47,36 @@ table {
 } 
 body {
     background-color: #282e2b;
+	line-height: 1.5;
     font-family: 'Roboto Slab', serif;
 }	
 .container {
 	max-width: 1090px;
 	margin: 0 auto;
 }
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
 .heading {
 	font-size: 46px;
 	color: white;
-	padding: 20px 0;
+	padding: 32px 0;
+	text-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
 }
 .text-one {
-	display: inline-block;
 	color: red;
-	font-size: 20px;
+	font-size: 24px;
 	padding: 15px 0;
 	font-family: 'Roboto Slab', serif;
+	text-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+	vertical-align: middle;
 }
 .two {
-	margin-left: 630px;
+	font-size: 24px;
 	color: white;
+	text-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
 } 
 .blockquote {
 	margin: 50px;
@@ -75,7 +84,6 @@ body {
 .text {
 	font-size: 20px;
 	color: #a89d85;
-	line-height: 1.5;
 	padding: 15px 0;
 	font-family: 'Open Sans', sans-serif;
 }
